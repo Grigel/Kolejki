@@ -1,0 +1,8 @@
+{
+  "name": "kolejki",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "bfeb6ce4"
+}

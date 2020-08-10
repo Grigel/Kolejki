@@ -1,0 +1,39 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Bilet
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+<ion-item>
+  <ion-label position="floating">Usługodawca</ion-label>
+  <ion-input value="{{bilet.provider}}" icon="triangle"></ion-input>
+</ion-item>
+<ion-item>
+  <ion-label position="floating">Jak trafić</ion-label>
+  <ion-input></ion-input>
+</ion-item>
+<ion-item>
+  <ion-label position="floating">Usługa</ion-label>
+  <ion-input></ion-input>
+</ion-item>
+<ion-item>
+  <ion-label position="floating">{{bilet.provider}} Dzień i godzina</ion-label>
+  <ion-input></ion-input>
+</ion-item>
+<ion-item>
+  <ion-label position="floating">Numer w kolejce</ion-label>
+  <ion-input></ion-input>
+</ion-item>
+<ion-item>
+  <ion-label position="floating">Nr osoby aktualnie obsługiwanej</ion-label>
+  <ion-input></ion-input>
+</ion-item>
+<ion-item>
+  <ion-label position="floating">Szacunkowy czas oczekiwania</ion-label>
+  <ion-input></ion-input>
+</ion-item>
+</ion-content>
